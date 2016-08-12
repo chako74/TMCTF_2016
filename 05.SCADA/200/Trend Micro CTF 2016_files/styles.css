@@ -1,0 +1,186 @@
+/* Global Settings */
+
+html, body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Own Components */
+
+.challenge-button {
+    height: auto;
+    font-size: 30px;
+}
+
+p.alert {
+    margin: 10px;
+    padding: 12px;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+}
+
+pre {
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+}
+
+/* Page Contents */
+
+.mdl-layout__header {
+    background: url(../images/space.png) repeat repeat;
+    animation: space-header 20s linear infinite;
+}
+
+@keyframes space-header {
+    0% {background-position: 0 0;}
+    100% {background-position: 500px 0px;}
+}
+
+.title{
+}
+
+.background-position {
+    position: relative;
+    width: auto;
+    height: 180px;
+    background: url(../images/logo-tm-ctf-white-800-2016.png) no-repeat center, url(../images/space.png) repeat repeat;
+    animation: space-top 20s linear infinite;
+}
+
+@keyframes space-top {
+    0% {background-position: center center, 0 0;}
+    100% {background-position: center center, 500px 0px;}
+}
+
+.page-content {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background: linear-gradient(180deg, whitesmoke 0%, snow 3%, white 100%);
+}
+
+.page-content#login {
+    padding-top: 60px;
+}
+
+.page-content#registration {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page-content#registration-complete {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page-content#quiz {
+    padding-top: 60px;
+}
+
+.page-content#challenges {
+    background: snow;
+}
+
+.tm-challenges-row {
+    height: 60px;
+}
+
+.tm-challenge-cell {
+    width: 150px;
+    margin: auto;
+    text-align: right;
+}
+
+.tm-icon-trend {
+    font-size: 20px;
+}
+.tm-icon-done {
+    font-size: 18px;
+    color: green;
+}
+
+.tm-icon-star {
+    font-size: 18px;
+    color: gold;
+}
+
+table#ranking-table {
+    margin: auto;
+}
+
+.tm-dialog {
+    padding: 0 20px;
+}
+
+.tm-dialog-guidance {
+    padding-top: 20px;
+    color: gray;
+}
+
+.tm-error-message {
+    color: red;
+}
+
+.tm-solved-message {
+    color: green;
+}
+
+.tm-dialog-footer {
+    margin-top: 20px;
+    padding: 8px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    text-align: right;
+}
+
+.tm-huge-icon {
+    font-size: 128px;
+    text-align: center;
+}
+
+.tm-cell-center {
+    text-align: center;
+}
+
+.tm-table-cell-non-numeric {
+    text-align: left;
+}
+
+.tm-table-cell-numeric {
+    text-align: right;
+}
+
+.tm-text-label {
+    color: rgba(0, 0, 0, .26);
+}
+
+.tm-challenge-text {
+    text-transform: capitalize;
+}
+
+.tm-quiz-description {
+    font-family: monospace;
+}
+
+/**************************************/
+
+.mdl-shadow--2dp {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    border-radius: 5px;
+}
+
+/* Overrides and Cancelations */
+
+.mdl-mini-footer {
+    padding: 16px;
+}
+
+h3 {
+    margin: 8px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin: 8px;
+}

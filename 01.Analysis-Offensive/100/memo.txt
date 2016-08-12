@@ -1,0 +1,12 @@
+TMCTF{1234567890abcefgh}
+
+var ko="c33367701511b4f6020ec61ded352059";
+var ka="61636f697b57b5b7d389db0edb801fc3";
+var kq="d2172edf24129e06f3913376a12919a4";
+
+h1 = "274h0c"
+h2 = "1f83e6"
+h3 = "b5g9a "
+
+co = 0dde4e6f977a98e75c288bcaa056b357
+ko = 

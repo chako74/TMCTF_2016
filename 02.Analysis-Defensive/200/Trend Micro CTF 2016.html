@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://ctf.trendmicro.co.jp/member/challenge_6 -->
+<html lang="en" class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trend Micro CTF 2016</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="./Trend Micro CTF 2016_files/css">
+    <link rel="stylesheet" href="./Trend Micro CTF 2016_files/icon">
+    <link rel="stylesheet" href="./Trend Micro CTF 2016_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./Trend Micro CTF 2016_files/material.red-blue.min.css">
+    <link rel="stylesheet" href="./Trend Micro CTF 2016_files/styles.css">
+
+  </head>
+
+  <body>
+
+    <div class="mdl-layout__container"><div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded" data-upgraded=",MaterialLayout">
+
+      <header class="mdl-layout__header is-casting-shadow"><div class="mdl-layout__drawer-button"><i class="material-icons">menu</i></div>
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Trend Micro CTF</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            Team: LUNKHEAD
+          </nav>
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+          </nav>
+        </div>
+      </header>
+
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Trend Micro CTF</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="https://ctf.trendmicro.co.jp/">Home</a>
+          <a class="mdl-navigation__link" href="https://ctf.trendmicro.co.jp/rules.html">Rules</a>
+          <a class="mdl-navigation__link" href="https://ctf.trendmicro.co.jp/member/panel">Challenge Panel</a>
+          <a class="mdl-navigation__link" href="https://twitter.com/TrendMicroCTF" target="_blank">Announcements</a>
+          <a class="mdl-navigation__link" href="https://ctf.trendmicro.co.jp/ranking.html">Ranking</a>
+          <a class="mdl-navigation__link" href="https://ctf.trendmicro.co.jp/member/logout">Logout</a>
+        </nav>
+      </div>
+
+      <main class="mdl-layout__content">
+        <div class="page-content" id="quiz">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-cell mdl-cell--8-col mdl-shadow--2dp">
+              <form action="https://ctf.trendmicro.co.jp/member/challenge_6" method="post">
+                <div>
+                  <h3 class="tm-cell-center">Challenge</h3>
+                </div>
+                
+                <div class="tm-dialog">
+                  
+                  <p class="tm-quiz-description">Category: Analysis - defensive<br>
+                  
+                  
+                  Points: 200<br>
+                  
+                  
+                  </p><p>Unpack me!</p>
+            <div>
+            <a href="https://s3-ap-northeast-1.amazonaws.com/trendmicro-ctf-2016/clSmF6TmdjbnSD6aRaQr/files6.enc">Download the file</a>
+            <p>Decrypt the downloaded file by the following command.</p>
+            <pre><code>
+&gt; openssl enc -d -aes-256-cbc -k eezMdEU9WNc5jEui1YuB -in files6.enc -out files6.zip
+&gt; unzip files6.zip
+            </code></pre>
+            </div>
+        <br>
+                  
+                  <p></p>
+                  
+                  <div class="mdl-textfield mdl-js-textfield is-invalid is-upgraded" style="width: 100%;" data-upgraded=",MaterialTextfield">
+                    <input class="mdl-textfield__input" maxlength="1000" name="flag" type="text" id="inputAnswer" required="">
+                    <label class="mdl-textfield__label" for="inputAnswer">Please type in the flag in the 'TMCTF{&lt;flag&gt;}' format.</label>
+                  </div>
+                  <p>
+                    Please replace &lt;flag&gt; with the actual flag you would like to submit.<br>
+                    Example: If your flag is abc, then please type in TMCTF{abc}.
+                  </p>
+                  
+                </div>
+                <div class="tm-dialog-footer">
+                  <button class="mdl-button mdl-js-button" type="button" onclick="location.href=&#39;./panel&#39;" data-upgraded=",MaterialButton">Go Back
+                  </button>
+                  
+                  <button class="mdl-button mdl-js-button" type="submit" data-upgraded=",MaterialButton">Submit</button>
+                  
+                </div>
+              </form>
+              <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            </div>
+          </div>
+      </div></main>
+
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer--left-section">
+          <div class="mdl-logo">© 2016 Trend Micro Incorporated. All rights reserved.</div>
+          <ul class="mdl-mini-footer--link-list">
+            <li><a href="mailto:trendmicroctf@trendmicro.co.jp"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://twitter.com/TrendMicroCTF" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+
+      <div class="mdl-layout__obfuscator"></div></div></div>
+      <script src="./Trend Micro CTF 2016_files/material.min.js"></script>
+  
+</body></html>
